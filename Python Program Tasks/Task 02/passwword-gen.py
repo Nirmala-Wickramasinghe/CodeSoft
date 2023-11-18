@@ -10,14 +10,14 @@ def password_generator():
     print("Password Generator")
 
     try:
-        # Get the desired length of the password from the user
+    
         length = int(input("Enter the desired length of the password: "))
 
         if length <= 0:
             print("Invalid password length. Please enter a positive integer.")
             return
 
-        # Generate and display the password
+        
         password = generate_password(length)
         print(f"Generated Password: {password}")
 
